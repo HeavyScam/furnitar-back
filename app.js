@@ -27,3 +27,4 @@ app.get("/", (req, res) => {
 
 //Listen on port:
 app.listen(PORT);
+console.log('server up');

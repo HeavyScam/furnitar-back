@@ -26,16 +26,16 @@ const getRow = async (l, b, h, type) => {
       row.breadth <= b &&
       row.height <= h
     ) {
-      console.log("---------------");
-      console.log(row.product_name);
-      console.log(row.length);
-      console.log(row.breadth);
-      console.log(row.height);
-      console.log(row.product_url);
-      console.log(row.product_selection1);
-      console.log(row.product_selection2);
-      console.log(row.product_type);
-      console.log("---------------");
+      // console.log("---------------");
+      // console.log(row.product_name);
+      // console.log(row.length);
+      // console.log(row.breadth);
+      // console.log(row.height);
+      // console.log(row.product_url);
+      // console.log(row.product_selection1);
+      // console.log(row.product_selection2);
+      // console.log(row.product_type);
+      // console.log("---------------");
       const obj = {
         length: row.length,
         width: row.breadth,
