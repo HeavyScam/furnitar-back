@@ -2,7 +2,7 @@ const express = require("express");
 
 const app = express();
 
-const PORT = process.env.PORT||3000;
+const PORT = process.env.PORT || 3000;
 
 const bodyParser = require("body-parser");
 
@@ -16,7 +16,7 @@ app.use(
 );
 
 app.use(bodyParser.json());
-
+app.use(cors());
 app.use("/furnitureData", furnitureData);
 
 app.get("/", (req, res) => {
@@ -27,4 +27,4 @@ app.get("/", (req, res) => {
 
 //Listen on port:
 app.listen(PORT);
-console.log('server up');
+console.log("server up");
