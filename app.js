@@ -15,6 +15,8 @@ app.use(
   })
 );
 
+app.use(bodyParser.json());
+
 app.use("/furnitureData", furnitureData);
 
 app.get("/", (req, res) => {
