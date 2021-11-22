@@ -24,7 +24,6 @@ https://furnitar.herokuapp.com/furnitureData
 - Add following fields to request body
 "length","width","height","category"
 - Send request
-- Run Node app.js
 
 # Contributors
 <table>
